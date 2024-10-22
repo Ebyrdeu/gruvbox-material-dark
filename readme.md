@@ -8,6 +8,7 @@
 the [Gruvbox Material](https://github.com/sainnhe/gruvbox-material?tab=readme-ov-file)
 theme.
 
+**[Light Theme Version](https://github.com/Ebyrdeu/gruvbox-material-light)**
 ## Supported Languages
 
 - Java
