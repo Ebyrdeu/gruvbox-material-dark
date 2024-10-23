@@ -14,6 +14,7 @@ theme.
 - Java
 - Rust
 - Go
+- Python
 - C/C++
 - JavaScript / TypeScript
 
