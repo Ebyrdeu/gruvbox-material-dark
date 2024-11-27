@@ -24,7 +24,8 @@
 		"purple": "#d3869b",
 		"bg_visual_red": "#543937",
 		"bg_visual_blue": "#404946",
-		"bg_visual_green": "#424a3e"
+		"bg_visual_green": "#424a3e",
+		"bg_visual_yellow": "#574833"
 	},
 	"ui": {
 		"*": {
@@ -33,9 +34,9 @@
 			"foreground": "fg0",
 			"iconColor": "fg0",
 			"inactiveBackground": "bg0",
-			"selectionBackground": "bg5",
+			"selectionBackground": "bg3",
 			"selectionForeground": "fg0",
-			"selectionInactiveBackground": "bg5",
+			"selectionInactiveBackground": "bg3",
 			"selectionInactiveForeground": "fg0",
 			"separatorColor": "bg2",
 			"paidTagBackground": "bg_visual_blue",
@@ -151,13 +152,13 @@
 			"errorBorderColor": "bg3",
 			"errorForeground": "fg0",
 			"ToolWindow": {
-				"errorBackground": "fg0",
+				"errorBackground": "bg_visual_red",
 				"errorBorderColor": "bg3",
 				"errorForeground": "fg0",
-				"informativeBackground": "bg0",
+				"informativeBackground": "bg_visual_blue",
 				"informativeBorderColor": "bg3",
 				"informativeForeground": "fg0",
-				"warningBackground": "fg0",
+				"warningBackground": "bg_visual_yellow",
 				"warningBorderColor": "bg3",
 				"warningForeground": "fg0"
 			}
@@ -247,8 +248,8 @@
 			}
 		},
 		"SearchMatch": {
-			"endBackground": "bg_visual_green",
-			"startBackground": "bg_visual_green"
+			"endBackground": "green",
+			"startBackground": "green"
 		},
 		"Separator": {
 			"separatorColor": "bg2"
@@ -312,6 +313,7 @@
 			"selectionBackground": "bg2",
 			"selectionForeground": "fg0",
 			"selectionInactiveBackground": "bg2",
+			"hoverBackground": "bg2",
 			"hoverInactiveBackground": "bg2"
 		},
 		"VersionControl": {
@@ -330,7 +332,11 @@
 			"Log": {
 				"Commit": {
 					"currentBranchBackground": "bg0",
-					"hoveredBackground": "bg2"
+					"hoveredBackground": "bg2",
+					"selectionBackground": "bg3",
+					"selectionForeground": "fg0",
+					"selectionInactiveBackground": "b3",
+					"selectionInactiveForeground": "fg0"
 				}
 			},
 			"RefLabel": {
@@ -339,6 +345,31 @@
 		},
 		"WelcomeScreen": {
 			"background": "bg0",
+			"borderColor": "bg2"
+		},
+		"Banner": {
+			"infoBackground": "bg_visual_blue",
+			"infoBorderColor": "bg_visual_blue",
+			"errorBackground": "bg_visual_red",
+			"errorBorderColor": "bg_visual_red",
+			"successBackground": "bg_visual_green",
+			"successBorderColor": "bg_visual_green",
+			"warningBackground": "bg_visual_yellow",
+			"warningBorderColor": "bg_visual_yellow"
+		},
+		"SegmentedButton": {
+			"selectedButtonColor": "bg2",
+			"selectedEndBorderColor": "bg3",
+			"selectedStartBorderColor": "bg3"
+		},
+		"Slider": {
+			"trackColor": "bg4",
+			"buttonColor": "grey1",
+			"buttonBorderColor": "grey1",
+			"tickColor": "bg4",
+			"foreground": "fg0"
+		},
+		"GotItTooltip": {
 			"borderColor": "bg2"
 		}
 	},
