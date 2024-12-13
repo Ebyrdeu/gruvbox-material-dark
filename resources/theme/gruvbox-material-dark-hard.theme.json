@@ -51,7 +51,7 @@
 		},
 		"Borders": {
 			"ContrastBorderColor": "bg1",
-			"color": "bg0"
+			"color": "bg1"
 		},
 		"Button": {
 			"default": {
@@ -375,12 +375,12 @@
 	},
 	"icons": {
 		"ColorPalette": {
-			"Checkbox.Background.Default": "#282828",
+			"Checkbox.Background.Default": "#504845",
 			"Checkbox.Background.Disabled": "#7c6f64",
-			"Checkbox.Background.Selected": "#282828",
-			"Checkbox.Border.Default": "#282828",
+			"Checkbox.Background.Selected": "#504845",
+			"Checkbox.Border.Default": "#504845",
 			"Checkbox.Border.Disabled": "#7c6f64",
-			"Checkbox.Border.Selected": "#282828",
+			"Checkbox.Border.Selected": "#504845",
 			"Checkbox.Foreground.Disabled": "#a89984",
 			"Checkbox.Foreground.Selected": "#d4be98",
 			"Objects.BlackText": "#d4be98",
@@ -396,9 +396,9 @@
 			"Objects.YellowDark": "#d8a657",
 			"Actions.Blue": "#7daea3",
 			"Actions.Green": "#a9b665",
-			"Actions.Grey": "#a9b665",
-			"Actions.GreyInline": "#a9b665",
-			"Actions.GreyInline.Dark": "#a9b665",
+			"Actions.Grey": "#7c6f64",
+			"Actions.GreyInline": "#7c6f64",
+			"Actions.GreyInline.Dark": "#7c6f64",
 			"Actions.Red": "#ea6962",
 			"Actions.Yellow": "#d8a657"
 		}
