@@ -25,19 +25,26 @@
 		"bg_visual_red": "#4c3432",
 		"bg_visual_blue": "#374141",
 		"bg_visual_green": "#3b4439",
-		"bg_visual_yellow": "#4f422e"
+		"bg_visual_yellow": "#4f422e",
+		"bg_visual_purple": "#443840"
 	},
 	"ui": {
 		"*": {
 			"background": "bg0",
+			"hoverBackground": "bg2",
 			"disabledBackground": "bg0",
+			"disabledForeground": "grey1",
 			"foreground": "fg0",
+			"infoForeground": "fg0",
 			"iconColor": "fg0",
 			"inactiveBackground": "bg0",
 			"selectionBackground": "bg3",
 			"selectionForeground": "fg0",
 			"selectionInactiveBackground": "bg3",
 			"selectionInactiveForeground": "fg0",
+			"selectedBackgroundInactive": "bg3",
+			"selectedBackground": "bg3",
+			"selectedForeground": "fg0",
 			"separatorColor": "bg2",
 			"paidTagBackground": "bg_visual_blue",
 			"trialTagBackground": "bg_visual_blue",
@@ -70,6 +77,19 @@
 			"foreground": "fg0",
 			"startBackground": "bg3",
 			"startBorderColor": "bg3"
+		},
+		"Code": {
+			"Block": {
+				"backgroundColor": "bg1",
+				"borderColor": "bg1",
+				"backgroundOpacity": "100",
+				"borderRadius": "0",
+				"EditorPane": {
+					"backgroundColor": "bg1",
+					"borderColor": "bg1",
+					"backgroundOpacity": "100"
+				}
+			}
 		},
 		"ComboBox": {
 			"ArrowButton": {
@@ -118,6 +138,13 @@
 			"underlineColor": "bg5",
 			"underlineHeight": 2,
 			"underlinedTabBackground": "bg1"
+		},
+		"FileColor": {
+			"Yellow": "bg_visual_yellow",
+			"Green": "bg_visual_green",
+			"Blue": "bg_visual_blue",
+			"Violet": "bg_visual_purple",
+			"Rose": "bg_visual_red"
 		},
 		"Label": {
 			"errorForeground": "red",
@@ -227,6 +254,14 @@
 			"trackColor": "bg2"
 		},
 		"ScrollBar": {
+			"hoverThumbBorderColor": "bg5",
+			"hoverThumbColor": "bg5",
+			"hoverTrackColor": "bg1",
+			"thumbBorderColor": "bg4",
+			"thumb": "bg4",
+			"thumbColor": "bg4",
+			"trackColor": "bg0",
+			"background": "bg0",
 			"Transparent": {
 				"hoverThumbBorderColor": "bg5",
 				"hoverThumbColor": "bg5",
@@ -235,7 +270,21 @@
 				"thumbColor": "bg4",
 				"trackColor": "bg0"
 			},
-			"hoverThumbColor": "bg2"
+			"Mac": {
+				"hoverThumbColor": "bg5",
+				"hoverTrackColor": "bg1",
+				"thumbBorderColor": "bg4",
+				"thumbColor": "bg4",
+				"trackColor": "bg0",
+				"Transparent": {
+					"hoverThumbBorderColor": "bg5",
+					"hoverThumbColor": "bg5",
+					"hoverTrackColor": "bg1",
+					"thumbBorderColor": "bg4",
+					"thumbColor": "bg4",
+					"trackColor": "bg0"
+				}
+			}
 		},
 		"SearchEverywhere": {
 			"SearchField": {
@@ -248,8 +297,8 @@
 			}
 		},
 		"SearchMatch": {
-			"endBackground": "green",
-			"startBackground": "green"
+			"endBackground": "bg_visual_green",
+			"startBackground": "bg_visual_green"
 		},
 		"Separator": {
 			"separatorColor": "bg2"
