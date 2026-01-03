@@ -2,7 +2,7 @@
 <idea-plugin>
 	<!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
 	<id>gruvbox-material-dark</id>
-	<version>1.0.3</version>
+	<version>2.0.0</version>
 
 	<!-- Public plugin name should be written in Title Case.
 			 Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -29,35 +29,10 @@
 	<!-- Short summary of new features and bugfixes in the latest plugin version.
 		 Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
 	<change-notes><![CDATA[
-
-	<b>1.0.3</b>
-	<ul>
-		<li>adjusted colors for file colors </li>
-		<li>adjusted colors for selected text on top bar</li>
-		<li>adjusted colors in colors scheme for horizontal sidebar in code editor</li>
-		<li>fixed border colors for code block </li>
-	</ul>
-	<b>1.0.2</b>
-	<ul>
-		<li>adjusted borders for side bars</li>
-		<li>adjusted colors for round checkbox</li>
-	</ul>
-	<b>1.0.1</b>
-	<ul>
-		<li>fixed database plugin colors notification</li>
-		<li>fixed Git Log tree color on hover</li>
-		<li>adjusted search match colors for dark environment</li>
-		<li>adjusted colors for notification</li>
-		<li>adjusted colors for slider</li>
-		<li>adjusted Active selected row to not overlap with unchecked checkbox</li>
-		<li>adjusted colors for round checkbox</li>
-	</ul>
-    <b>1.0.0</b>
-	<ul>
-		<li>
-            Initial release of the theme.
-		</li>
-	</ul>
+<b>2.0.0</b>
+<ul>
+	<li>added Islands Theme support</li>
+</ul>
   ]]></change-notes>
 
 	<!-- Product and plugin compatibility requirements.
@@ -75,6 +50,18 @@
 
 		<themeProvider id="gruvbox-dark-soft-theme"
 		               path="/theme/gruvbox-material-dark-soft.theme.json"
+		/>
+
+		<themeProvider id="islands-gruvbox-dark-hard-theme"
+		               path="/theme/islands-gruvbox-material-dark-hard.theme.json"
+		/>
+
+		<themeProvider id="islands-gruvbox-dark-medium-theme"
+		               path="/theme/islands-gruvbox-material-dark-medium.theme.json"
+		/>
+
+		<themeProvider id="islands-gruvbox-dark-soft-theme"
+		               path="/theme/islands-gruvbox-material-dark-soft.theme.json"
 		/>
 	</extensions>
 </idea-plugin>
