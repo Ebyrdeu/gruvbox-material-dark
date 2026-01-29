@@ -1,7 +1,7 @@
 <scheme name="Gruvbox Material Dark Soft" version="142" parent_scheme="Default">
 	<metaInfo>
-		<property name="ide">idea</property>
-		<property name="ideVersion">2025.3.2.0.0</property>
+		<property name="ide">CLion</property>
+		<property name="ideVersion">2025.3.1.1.0.0</property>
 	</metaInfo>
 	<colors>
 		<option name="ADDED_LINES_COLOR" value="89B482"/>
@@ -101,17 +101,12 @@
 		<option name="WHITESPACES_MODIFIED_LINES_COLOR" value="3C3836"/>
 	</colors>
 	<attributes>
-		<option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA"/>
-		<option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA"/>
+		<option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes=""/>
+		<option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes=""/>
 		<option name="BAD_CHARACTER">
 			<value>
 				<option name="EFFECT_COLOR" value="ea6962"/>
 				<option name="EFFECT_TYPE" value="2"/>
-			</value>
-		</option>
-		<option name="Doxygen Parameter">
-			<value>
-				<option name="FOREGROUND" value="d4be98"/>
 			</value>
 		</option>
 		<option name="BASH.EXTERNAL_COMMAND">
@@ -665,6 +660,11 @@
 				<option name="FOREGROUND" value="928374"/>
 			</value>
 		</option>
+		<option name="Doxygen Parameter">
+			<value>
+				<option name="FOREGROUND" value="d4be98"/>
+			</value>
+		</option>
 		<option name="ERRORS_ATTRIBUTES">
 			<value>
 				<option name="EFFECT_COLOR" value="ea6962"/>
@@ -864,7 +864,7 @@
 				<option name="BACKGROUND" value="665c54"/>
 			</value>
 		</option>
-		<option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD"/>
+		<option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes=""/>
 		<option name="JS.EXPORTED.FUNCTION">
 			<value>
 				<option name="FOREGROUND" value="a9b665"/>
@@ -1073,7 +1073,7 @@
 				<option name="ERROR_STRIPE_COLOR" value="404946"/>
 			</value>
 		</option>
-		<option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD"/>
+		<option name="STATIC_FIELD_ATTRIBUTES" baseAttributes=""/>
 		<option name="STATIC_FINAL_FIELD_ATTRIBUTES">
 			<value>
 				<option name="FOREGROUND" value="d3869b"/>
@@ -1148,7 +1148,7 @@
 				<option name="FOREGROUND" value="d4be98"/>
 			</value>
 		</option>
-		<option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="DEFAULT_PARAMETER"/>
+		<option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes=""/>
 		<option name="TYPO">
 			<value>
 				<option name="EFFECT_COLOR" value="6c7a4d"/>
@@ -1224,6 +1224,9 @@
 		<option name="com.plan9.LABEL" baseAttributes="DEFAULT_LABEL"/>
 		<option name="org.rust.ASSOC_FUNCTION" baseAttributes="DEFAULT_STATIC_METHOD"/>
 		<option name="org.rust.ASSOC_FUNCTION_CALL" baseAttributes="DEFAULT_STATIC_METHOD"/>
+		<option name="org.rust.ASSOC_TRAIT_FUNCTION" baseAttributes="org.rust.ASSOC_FUNCTION"/>
+		<option name="org.rust.ASSOC_TRAIT_FUNCTION_CALL"
+		        baseAttributes="org.rust.ASSOC_FUNCTION_CALL"/>
 		<option name="org.rust.CFG_DISABLED_CODE">
 			<value>
 				<option name="FOREGROUND" value="7c6f64"/>
@@ -1255,14 +1258,16 @@
 		</option>
 		<option name="org.rust.METHOD" baseAttributes="DEFAULT_INSTANCE_METHOD"/>
 		<option name="org.rust.METHOD_CALL" baseAttributes="DEFAULT_FUNCTION_CALL"/>
-		<option name="org.rust.Q_OPERATOR" baseAttributes="DEFAULT_KEYWORD"/>
+		<option name="org.rust.MUT_SELF_PARAMETER" baseAttributes="org.rust.MUT_PARAMETER"/>
 		<option name="org.rust.PARAMETER" baseAttributes="DEFAULT_PARAMETER"/>
+		<option name="org.rust.Q_OPERATOR" baseAttributes="DEFAULT_KEYWORD"/>
 		<option name="org.rust.SELF_EXPRESSION" baseAttributes="DEFAULT_KEYWORD"/>
 		<option name="org.rust.SELF_PARAMETER" baseAttributes="DEFAULT_KEYWORD"/>
 		<option name="org.rust.STATIC" baseAttributes="org.rust.VARIABLE"/>
 		<option name="org.rust.STRUCT" baseAttributes="DEFAULT_CLASS_NAME"/>
 		<option name="org.rust.TRAIT" baseAttributes="DEFAULT_INTERFACE_NAME"/>
 		<option name="org.rust.TRAIT_METHOD" baseAttributes="org.rust.METHOD"/>
+		<option name="org.rust.TRAIT_METHOD_CALL" baseAttributes="org.rust.METHOD_CALL"/>
 		<option name="org.rust.TYPE_ALIAS" baseAttributes="DEFAULT_CLASS_NAME"/>
 		<option name="org.rust.TYPE_PARAMETER" baseAttributes="DEFAULT_IDENTIFIER"/>
 		<option name="org.rust.UNION" baseAttributes="DEFAULT_CLASS_NAME"/>
