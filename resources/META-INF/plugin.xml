@@ -2,7 +2,7 @@
 <idea-plugin>
 	<!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
 	<id>gruvbox-material-dark</id>
-	<version>2.0.0</version>
+	<version>2.0.1</version>
 
 	<!-- Public plugin name should be written in Title Case.
 			 Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -29,6 +29,12 @@
 	<!-- Short summary of new features and bugfixes in the latest plugin version.
 		 Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
 	<change-notes><![CDATA[
+<b>2.0.1</b>
+<ul>
+	<li>Fixed Rust color scheme</li>
+	<li>Fixed Some things between dark and light themes</li>
+	<li>Adjusted bold parameter for private staff in Go</li>
+</ul>
 <b>2.0.0</b>
 <ul>
 	<li>added Islands Theme support</li>
